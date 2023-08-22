@@ -31,7 +31,7 @@ run:
   device: "cuda"
   world_size: 1
   dist_url: "env://"
-  distributed: True
+  distributed: False
   use_dist_eval_sampler: False
 
   # model specific
